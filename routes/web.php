@@ -16,6 +16,13 @@ Route::get('/', function () {
 });
 
 /**
+ * JDX 사용자 화면
+ */
+Route::get('/{slug}', function ($slug) {
+    return view($slug);
+});
+
+/**
  * JDX 관리자 화면
  */
 Route::get('/admin', function () {
