@@ -34,3 +34,7 @@ Route::get('/admin/{slug}', function ($slug) {
 Route::get('/admin/{folder}/{slug}', function ($folder, $slug) {
     return view('admin/'.$folder.'/'.$slug);
 });
+
+/**
+ * 깃 테스트
+ */
